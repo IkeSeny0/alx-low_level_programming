@@ -4,10 +4,11 @@
 #include <ctype.h>
 
 /**
- * _is_zero - determines if any number is zero
+ * is_digit - checks if a string contains a non-digit char
  * @argv: argument vector.
+ * @s: string to be evaluated
  *
- * Return: no return.
+ * Return: 0 if a non-digit is found, 1 otherwise
  */
 void _is_zero(char *argv[])
 {
@@ -35,7 +36,6 @@ void _is_zero(char *argv[])
 }
 
 /**
- * _initialize_array - set memery to zero in a new array
  * @ar: char array.
  * @lar: length of the char array.
  *
